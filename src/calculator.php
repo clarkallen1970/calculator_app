@@ -22,6 +22,7 @@
   <input id="inputNum2" type="text" /input> <br/><br/>  
 
   <button onclick="addService()">Add</button><br/><br/> 
+  <button onclick="subService()">Subtract</button><br/>
 
   Results: <div id="result"></div>
 
