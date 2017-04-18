@@ -27,3 +27,13 @@ function divService(){
 	var num2 = Number(document.getElementById("inputNum2").value);
 	document.getElementById('result').innerHTML=divide(num1, num2);
 }
+
+function multiply(number1, number2){
+	return number1 * number2;
+}
+
+function multService(){
+	var num1 = Number(document.getElementById("inputNum1").value);
+	var num2 = Number(document.getElementById("inputNum2").value);
+	document.getElementById('result').innerHTML=multiply(num1, num2);
+}

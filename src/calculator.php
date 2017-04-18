@@ -24,6 +24,7 @@
   <button onclick="addService()">Add</button><br/><br/> 
   <button onclick="subService()">Subtract</button><br/></br>
   <button onclick="divService()">Divide</button></br></br>
+  <button onclick="multService()">Multiply</button></br>
 
   Results: <div id="result"></div>
 
